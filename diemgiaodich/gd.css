@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-maxwidth{
+    display: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between; 
+}
+.header{
+    height: 60px;
+    justify-items: center;
+    align-items: center;
+    background: #5E2E86;
+    color: white;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.header img{
+    height: 130%;
+    width: 130px;
+}
+a{
+    text-decoration: none;
+} 
+.header a{
+    color: white;
+    font-weight: bold;
+}
+.login a{
+    color: #5E2E86;
+}
+.login{
+    padding: 8px;
+    background: white;
+    color:#5E2E86 ;
+    border-radius: 10px;
+}
+.login i{
+    margin-right: 3px;
+}
+.search a{
+    margin-left: 3px;
+    margin-top: 9px;
+    align-items: center;
+    justify-items: center;
+}
+.search input{
+    border-radius: 10px;
+    padding: 7px;
+}
+.bgr{
+    padding-top: 60px;
+    position: relative;
+}
+.bgr hr{
+    height: 6px;
+    background: #E56D25; 
+}
+.bgr .phone{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: green;
+    color: white;
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    animation: shake 0.5s infinite;
+    z-index: 1000;
+}
+@keyframes shake {
+    0% { transform: rotate(0); }
+    20% { transform: rotate(10deg); }
+    40% { transform: rotate(-10deg); }
+    60% { transform: rotate(10deg); }
+    80% { transform: rotate(-10deg); }
+    100% { transform: rotate(0); }
+}
+
+#backtop {
+    width: 50px;
+    height: 50px;
+    background: tomato;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+.bgr .bgr-img{
+    width: 100%;
+}
+.bgr img{
+    width: 100%;
+    position: relative;
+}
+.bgr p{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: white;
+}
+.bgr a{
+    color: white;
+    font-weight: bold;
+}
+.bgr .a-hover a:hover{
+    font-size: 25px;
+    color: #5E2E86;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #6c63ff; 
+    border-radius: 30px; 
+    overflow: hidden; 
+    background-color: white; 
+}
+
+.search-input {
+    border: none; 
+    padding: 10px 20px; 
+    outline: none; 
+    font-size: 16px; 
+    flex: 1; 
+}
+
+.search-button {
+    background-color: #6c63ff;
+    border: none; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+    color: white; 
+    font-size: 16px;
+}
+
+.search-button i {
+    font-size: 18px; 
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} */
+
+.form-item1 {
+    background-color: #f8f8fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%; 
+}
+
+.form-item1 h2 {
+    color: #6c63ff; 
+    display: flex;
+    align-items: center;
+}
+
+.form-item1 h2 i {
+    margin-right: 10px; 
+}
+
+.form-item1 p {
+    margin: 5px 0;
+}
+
+.form-item1 table {
+    width: 100%;
+    margin: 10px 0;
+    border-collapse: collapse;
+}
+
+.form-item1 th, .form-item1 td {
+    text-align: left;
+    padding: 8px;
+}
+
+.form-item1 th {
+    width: 40%;
+}
+
+.form-item1 .btn-map {
+    background-color: #6c63ff; 
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-item1 .btn-map:hover {
+    background-color: #5a52d1; 
+}
+.gd{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.button-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.gd-map{
+    margin:0 60px ;
+}
+
+.button-item1{
+    margin-right: 15px;
+    background-color: #6c63ff;
+    padding: 10px 10px;
+    border-radius: 15px  ;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+    cursor: pointer; 
+}
+.button-item1 i{
+    padding: 2px 5px;
+    color: black;
+}
+.phone-it{
+    display: flex;
+    justify-content: space-between;
+}
+
+.timhieuthem{
+    background: #F7F6FC;
+    height: 30px;
+}
+.timhieuthem ul{
+    display: flex;
+    margin-left: 280px;
+    padding: 8px;
+}
+.timhieuthem ul li{
+    list-style-type: none;
+}
+.timhieuthem ul a{
+    color: black;
+    padding: 30px;
+    margin-top: 10px;
+}
+.hrr hr{
+    margin-top: 1px;
+    height: 3px;
+    background: linear-gradient(to left, #E56D25, #7835BA); 
+}
+.tht-hover:hover{
+    color: #5E2E86;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    max-width: 85%;
+    margin: auto;
+    padding: 20px 0; 
+}
+
+.footer-lv1{
+    list-style-type: none;
+    margin: auto;
+    max-width: 100%;
+}
+
+.section2{
+    background-color: #ececec;
+}
+
+.footer-lv1 li{
+    font-size: small;
+    padding-bottom: 7px;
+}
+.footer-lv1 h5{
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+.sdt{
+    background-color: #7b35ba;
+    border-radius: 3px;
+    padding: 4px 18px;
+    color: white;
+    font-weight: bold;
+}
+/* cái này làm cho cái điện thoại bị lệch  */
+.list-icon-lv1 .fa-phone{
+    padding-right: 10px;
+} 
+.mail{
+    padding: 2px 3px;
+    background-color: #7b35ba;
+    border-radius: 3px;
+    padding: 4px 7px;
+    text-align: center;
+    margin-left: 8px;
+    color: white;
+}
+.list-icon{
+    padding: 2px 3px;
+    background-color: #7b35ba;
+    border-radius: 3px;
+    padding: 4px 7px;
+    color: white;
+    margin-left: 7px;
+}
+
+.list-icon-lv1{
+    margin-top: 15px;
+}
+.end-footer {
+    margin-top: 15px;
+}
+.list-icon1 {
+    background-color: #7b35ba;
+    color: white;
+    padding: 4px 9px 4px 9px;
+    border-radius: 3px;
+    text-align: center;
+}
+.list-icon3 {
+    background-color: #7b35ba;
+    color: white;
+    padding: 4px 5px 4px 5px;
+    border-radius: 3px;
+   margin-left: 6px;
+}
+.footer-lv2{
+    padding-bottom: 50px;
+    list-style-type: none;
+}
+.footer-lv2 li{
+    font-size: small;
+}
+
+.footerr{
+    margin-top: 0px;
+    background: #5E2E86;
+    height: 60px;
+    text-align: center;
+    align-content: center;
+    color: #E9E9E9;
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Điểm Giao Dịch | OHOME</title>
+    <link rel="stylesheet" href="gd.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="../IMG/logo - Shortcut.jpg">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <!-- xử lí scroll về top  -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $("#backtop").fadeIn();
+                } else {
+                    $("#backtop").fadeOut();
+                }
+            });
+            // sử lý sự kiện khi nhấn vô backtop
+            $("#backtop").click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 1000);
+            })
+        });
+    </script>
+
+<header>
+    <div class="header flex">
+        <div></div>
+        <a href="http://127.0.0.1:5500/Home/index.html"><img src="../IMG/logo.jpg" alt="logo"></a>
+        <div></div>
+        <a href="http://127.0.0.1:5500/Home/index.html">Danh mục cá nhân</a>
+        <div></div>
+        <div></div>
+        <div class="login flex">
+            <a href="#"><i class="fa-solid fa-lock"></i></a>
+            <a href="http://127.0.0.1:5500/dangnhap/index.html">Đăng nhập</a>
+        </div>
+        <div class="search flex">
+            <input type="text" placeholder="Nhập nội dung bạn cần tìm.">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        <div></div>
+    </div>
+</header>
+
+<section class="bgr">
+    <hr>
+    <div class="bgr-img">
+        <img src="../IMG/tk-bg0-min.png" alt="bgr">
+    </div>
+    <p class="a-hover"><a href="http://127.0.0.1:5500/Home/index.html" class="a-hover hidden-section">Trang chủ</a>
+        > <a href="#" class="a-hover">TÀI KHOẢN</a></p>
+    <div class="phone">
+        <a href="http://127.0.0.1:5500/lienhe/index.html"><i class="fa-solid fa-phone"></i></a>
+    </div>
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+</section>
+
+  <section style="margin-top: 30px;">
+    <div class="gd">
+        <div class="gd-item">
+            <div class="gd-item1">
+                <!-- div1 -->
+                <div class="search-container">
+                    <input type="text" placeholder="Nhà Bè, Thành phố Hồ Chí Minh..." class="search-input">
+                    <button class="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <!-- div2 -->
+                <div class="button-item">
+                    <div class="button-item1"><i class="fa-solid fa-house"></i>Phòng giao dịch</div>
+                    <div class="button-item1"><i class="fa-solid fa-gem"></i>Premier Banking</div>
+                    <div class="button-item1"><i class="fa-regular fa-credit-card"></i>ATM</div>
+                    <div class="button-item1"><i class="fa-solid fa-vault"></i>LiveBank</div>
+                </div>   
+                <!-- div3 -->
+                 <div class="form-item">
+                    <div class="form-item1">
+                        <div class="phone-it">
+                             <h2> Ohome Bank Đội Cấn</h2>
+                        <p style="color: #ff9800; background-color: rgb(229 219 255); padding: 10px; border-radius: 15px;"><i class="fas fa-phone"></i> 0123456789</p>
+                        </div>
+                        <p>Số 155 Đội Cấn, phường Đội Cấn, quận Bình Tân, TP. Hồ Chí Minh</p>
+                        <h4>Dịch vụ cung cấp:</h4>
+                        <p>Phòng giao dịch, LiveBank, ATM</p>
+                        <table>
+                            <tr>
+                                <th>Thứ 2 đến thứ 6:</th>
+                                <td>08:00 - 17:00</td>
+                            </tr>
+                            <tr>
+                                <th>Thứ 7:</th>
+                                <td>08:00 - 12:00</td>
+                            </tr>
+                            <tr>
+                                <th>ATM/LiveBank:</th>
+                                <td>Mở cửa 24/7</td>
+                            </tr>
+                        </table>
+                        <button class="btn-map">Tìm đường đi</button>
+                    </div>
+                 </div>
+            </div>
+            <div style="margin-top: 20px;" class="gd-item1">
+                <!-- div1 -->
+                <div class="search-container">
+                    <input type="text" placeholder="Hoàn Kiếm, Hồ Chí Minh..." class="search-input">
+                    <button class="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <!-- div2 -->
+                <div class="button-item">
+                    <div class="button-item1"><i class="fa-solid fa-house"></i>Phòng giao dịch</div>
+                    <div class="button-item1"><i class="fa-solid fa-gem"></i>Premier Banking</div>
+                    <div class="button-item1"><i class="fa-regular fa-credit-card"></i>ATM</div>
+                    <div class="button-item1"><i class="fa-solid fa-vault"></i>LiveBank</div>
+                </div>   
+                <!-- div3 -->
+                 <div class="form-item">
+                    <div class="form-item1">
+                        <div class="phone-it">
+                            <h2> Ohome Bank Đội Cấn</h2>
+                        <p style="color: #ff9800; background-color: rgb(229 219 255); padding: 10px; border-radius: 15px;"><i class="fas fa-phone"></i> 0123456789</p>
+                        </div>
+                        
+                        <p>Số 155 Đội Cấn, phường Đội Cấn, quận Bình Tân, TP. Hồ Chí Minh</p>
+                        <h4>Dịch vụ cung cấp:</h4>
+                        <p>Phòng giao dịch, LiveBank, ATM</p>
+                        <table>
+                            <tr>
+                                <th>Thứ 2 đến thứ 6:</th>
+                                <td>08:00 - 17:00</td>
+                            </tr>
+                            <tr>
+                                <th>Thứ 7:</th>
+                                <td>08:00 - 12:00</td>
+                            </tr>
+                            <tr>
+                                <th>ATM/LiveBank:</th>
+                                <td>Mở cửa 24/7</td>
+                            </tr>
+                        </table>
+                        <button class="btn-map">Tìm đường đi</button>
+                    </div>
+                 </div>
+            </div>
+        </div>
+            <div class="gd-map">
+                <div class="gd-map1"></div>
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.764100538608!2d106.68809457512764!3d10.675409961048732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31753100099ce9ed%3A0xdb6079801f0735ea!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBN4bufIFRQLiBI4buTIENow60gTWluaCAoY8ahIHPhu58gMyk!5e0!3m2!1svi!2s!4v1725870415811!5m2!1svi!2s"
+                width="600" height="800" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            </div>
+        </div>
+    </div>
+  </section>
+  <div class="timhieuthem hidden-section">
+    <ul>
+        <li><a href="http://127.0.0.1:5500/TinTuc/index.html" class="tht-hover">Tin tức</a></li>
+        <li><a href="http://127.0.0.1:5500/tuyendung/index.html" class="tht-hover">Tuyển dụng</a></li>
+        <li><a href="#" class="tht-hover">Nhà đầu tư</a></li>
+        <li><a href="http://127.0.0.1:5500/lienhe/index.html" class="tht-hover">Liên hệ</a></li>
+        <li><a href="#" class="tht-hover">Tra cứu hóa đơn</a></li>
+        <li><a href="#" class="tht-hover">Sitemap</a></li>
+</div>
+<div class="hrr">
+    <hr>
+</div>
+<section class="section2 hidden-section">
+    <div class="footer">
+        <div class="footer-lv1">
+            <h5>Khách hàng cá nhân</h5>
+            <li class="list-item">Ngân hàng Số</li>
+            <li class="list-item">Tài khoản</li>
+            <li class="list-item">Thẻ</li>
+            <li class="list-item">Cho vay</li>
+            <li class="list-item">Tiết kiệm</li>
+            <li class="list-item">Bảo hiểm</li>
+            <li class="list-item">Sản phẩm khác</li>
+            <li class="list-item">Tiện ích</li>
+        </div>
+        <div class="footer-lv1">
+            <h5>Khách hàng doanh nghiệp</h5>
+            <li class="list-item">Ngân hàng Số</li>
+            <li class="list-item">Tài khoản</li>
+            <li class="list-item">Tiền gửi</li>
+            <li class="list-item">Thanh toán Quốc tế</li>
+            <li class="list-item">Bảo lãnh</li>
+            <li class="list-item">Cho vay & Tài trợ</li>
+            <li class="list-item">Thẻ</li>
+            <li class="list-item">Sản phẩm khác</li>
+        </div>
+        <div class="footer-lv1">
+            <h5>Về Ohome</h5>
+            <li class="list-item">Lịch sử phát triển</li>
+            <li class="list-item">Ban lãnh đạo</li>
+            <li class="list-item">Sơ đồ tổ chức</li>
+            <li class="list-item">Sứ mệnh & Tầm nhìn</li>
+            <li class="list-item">Giá trị cốt lõi</li>
+            <li class="list-item">Hoạt dộng cộng đồng</li>
+            <li class="list-item">Giải thưởng</li>
+            <li class="list-item">Mạng lưới ngân hàng liên kết</li>
+        </div>
+        <div class="footer-lv2">
+            <h5>Dịch vụ khách hàng</h5>
+            <div class="list-icon-footer">
+                <div class="list-icon-lv1">
+                    <a href="#" class="sdt"><i class="fa fa-phone"></i>0392941671</a>
+                    <a href="#" class="mail"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <div class="list-icon-lv1">
+                    <a href="#" class="list-icon1"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="list-icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="list-icon3"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" class="list-icon"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="list-icon"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <div class="end-footer">
+                    <li class="list-item">Điều khoản sử dụng</li>
+                    <li class="list-item">An toàn sử dụng</li>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footerr">
+    <p>Copyright @ 2024 Ohome bank. All rights reserved.</p>
+</footer>
+</body>
+</html>
